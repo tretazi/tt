@@ -1,0 +1,73 @@
+/* Home.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #b3e5fc, #4fc3f7, #0288d1);
+    color: #ffffff;
+  }
+  
+  .home-title {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #fff;
+  }
+  
+  .button-frame {
+    background-color: rgba(255, 255, 255, 0.2); /* Fond transparent */
+    border: 2px solid #ffffff; /* Bordure blanche */
+    border-radius: 12px;       /* Coins arrondis pour un style moderne */
+    padding: 2rem;             /* Espace interne pour éviter que les boutons soient collés aux bords */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Légère ombre pour effet de cadre */
+    margin-top: 20cm;           /* Marge pour descendre les boutons */
+}
+
+  
+  .button-group {
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* 2 colonnes pour aligner les boutons deux à deux */
+    gap: 1rem;
+    justify-content: center; /* Centre la grille horizontalement */
+    align-items: center;
+}
+
+  
+  .home-button {
+    background-color: #0288d1;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #01579b;
+    transform: scale(1.05);
+  }
+  
+  .home-button:active {
+    transform: scale(0.95);
+  }
+  .title-frame {
+    background-color: rgba(255, 255, 255, 0.2); /* Fond légèrement transparent */
+    border: 2px solid #ffffff; /* Bordure blanche */
+    border-radius: 12px; /* Coins arrondis */
+    padding: 1rem 2rem; /* Espace autour du texte */
+    display: inline-block; /* Garde le cadre autour du titre */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3); /* Ombre pour effet de profondeur */
+}
+
+  

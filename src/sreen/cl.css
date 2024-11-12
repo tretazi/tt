@@ -1,0 +1,70 @@
+/* Fond clair avec une légère nuance de gris */
+.app-container {
+  background: linear-gradient(to bottom, #87CEEB, #4682B4); /* Bleu ciel vers bleu foncé */
+  min-height: 100vh; /* Assure que le fond couvre toute la hauteur de la page */
+  padding: 20px;
+}
+
+/* Titre de la page avec une police élégante et un léger ombrage */
+.custom-title {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Cartes avec des bords arrondis et ombre légère */
+.custom-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce pour les cartes */
+  border: none;
+}
+
+/* Effet d'ombre et de bordures pour les champs de saisie */
+.custom-input {
+  border-radius: 8px; /* Coins arrondis */
+  padding: 12px; /* Espace confortable pour l'utilisateur */
+  border: 1px solid #ddd; /* Bordure légère */
+  transition: border 0.3s ease; /* Transition douce lors du focus */
+}
+
+.custom-input:focus {
+  border-color: #007bff; /* Bordure bleu clair au focus */
+  outline: none;
+}
+
+/* Boutons stylisés avec une couleur d'accentuation */
+.custom-btn {
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3; /* Changer la couleur au survol */
+}
+
+/* Liste des clients avec des éléments cliquables */
+.custom-list-item {
+  cursor: pointer;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-list-item:hover {
+  background-color: #f1f1f1; /* Fond légèrement coloré au survol */
+}
+
+/* Formulaire avec des marges et un espacement amélioré */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-body {
+  padding: 30px;
+}

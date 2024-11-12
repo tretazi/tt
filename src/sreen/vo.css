@@ -1,0 +1,80 @@
+/* Fond clair pour l'application */
+.app-container {
+    background: linear-gradient(to bottom, #87CEEB, #4682B4); /* Bleu ciel vers bleu foncé */
+    min-height: 100vh; /* Assure que le fond couvre toute la hauteur de la page */
+    padding: 20px;
+  }
+  
+  /* Titre avec une belle police et ombre légère */
+  .custom-title {
+    color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  }
+  
+  /* Cartes avec des bords arrondis et ombre subtile */
+  .custom-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  /* Champs de saisie avec coins arrondis et bordures légères */
+  .custom-input {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    transition: border 0.3s ease;
+  }
+  
+  .custom-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Boutons avec un effet de survol */
+  .custom-btn {
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Éléments de texte avec des couleurs adaptées */
+  .voyage-item {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .text-success {
+    color: #28a745;
+  }
+  
+  .text-danger {
+    color: #dc3545;
+  }
+  
+  /* Container avec un maximum de largeur pour un bon affichage */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  /* Liste des voyages */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  

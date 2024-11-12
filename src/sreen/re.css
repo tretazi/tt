@@ -1,0 +1,95 @@
+/* Fond avec dégradé bleu ciel */
+.app-container {
+    background: linear-gradient(to bottom, #a8c0ff, #3d79f0); /* Dégradé bleu ciel */
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 20px;
+    color: white;
+  }
+  
+  /* Titre principal avec effet d'ombre */
+  .custom-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  /* Cartes avec bordure arrondie et ombre subtile */
+  .custom-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+  
+  /* Champs de saisie élégants avec bordure douce */
+  .custom-input {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    transition: border 0.3s ease;
+  }
+  
+  .custom-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Boutons avec couleur attrayante et survol */
+  .custom-btn {
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Liste de réservations avec couleur personnalisée */
+  .reservation-item {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  /* Zone de recherche avec un fond plus clair */
+  input[type="text"] {
+    background-color: #f1f1f1;
+  }
+  
+  /* Container limité en largeur pour une mise en page soignée */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Liste sans puces */
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li:hover {
+    background-color: #f7f7f7;
+  }
+  
+  /* Avoir un meilleur contraste pour les boutons */
+  button {
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  

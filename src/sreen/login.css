@@ -1,0 +1,64 @@
+/* login.css */
+
+/* Dégradé bleu clair pour le fond de la page */
+.login-container {
+    background: linear-gradient(to bottom, #00bfff, #4682b4); /* Dégradé du bleu ciel au bleu moyen */
+    height: 100vh; /* Remplir toute la hauteur de l'écran */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Carte de connexion stylisée */
+  .login-card {
+    background-color: #ffffff; /* Fond blanc pour la carte */
+    width: 100%;
+    max-width: 400px; /* Limiter la taille de la carte */
+    padding: 40px;
+    border-radius: 12px; /* Coins arrondis */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Ombre douce pour l'effet de profondeur */
+    text-align: center;
+  }
+  
+  .custom-title {
+    color: #4682b4; /* Titre en bleu moyen */
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .custom-input {
+    margin-bottom: 15px; /* Espacement entre les champs */
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 1rem;
+  }
+  
+  .custom-input:focus {
+    border-color: #4682b4; /* Bordure bleue au focus */
+    box-shadow: 0 0 5px rgba(70, 130, 180, 0.5); /* Ombre au focus */
+  }
+  
+  .custom-btn {
+    padding: 15px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    background-color: #00bfff; /* Bleu ciel pour le bouton */
+    color: white;
+    border: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: #4682b4; /* Changement de couleur au survol */
+  }
+  
+  .custom-btn:focus {
+    outline: none; /* Enlever le contour au focus */
+  }
+  

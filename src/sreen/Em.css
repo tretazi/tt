@@ -1,0 +1,41 @@
+/* Fond d'écran en dégradé bleu ciel */
+.app-background {
+  background: linear-gradient(to right, #00c6ff, #0072ff); /* Dégradé du bleu clair au bleu foncé */
+  height: 100vh;
+  padding: 20px;
+}
+
+/* Police élégante - Google Font */
+.custom-title {
+  font-family: 'Poppins', sans-serif;  /* Police élégante Poppins */
+  font-weight: 600;
+  color: #fff; /* Texte blanc */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre légère pour le titre */
+}
+
+/* Card personnalisée */
+.custom-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+  border: none;
+}
+
+.custom-card .card-body {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+/* Ajout d'espaces et de marges */
+.container {
+  max-width: 1000px;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+/* Ajouter du padding et de l'espace entre les sections */
+h1 {
+  margin-bottom: 30px;
+}
